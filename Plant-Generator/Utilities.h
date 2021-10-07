@@ -3,6 +3,7 @@
 #define _USE_MATH_DEFINES
 
 #include <math.h>
+#include <regex>
 
 namespace util
 {
@@ -27,5 +28,10 @@ namespace util
 	{
 		T f = (T)rand() / RAND_MAX;
 		return min + f * (max - min);
+	}
+
+	static inline bool is_letter(const std::string& string)
+	{
+		return std::regex_match(string, std::regex("[a-zA-z][a-zA-z0-9]*"));
 	}
 }

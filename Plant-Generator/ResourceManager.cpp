@@ -26,26 +26,7 @@ void ResourceManager::load_textures()
 {
 	std::string path;
 
-	path = "content/textures/empty.png";
-	load_texture(path, "empty");
 
-	path = "content/textures/wall.png";
-	load_texture(path, "wall");
-
-	path = "content/textures/chest.png";
-	load_texture(path, "chest");
-
-	path = "content/textures/item.png";
-	load_texture(path, "item");
-
-	path = "content/textures/monster.png";
-	load_texture(path, "monster");
-
-	path = "content/textures/entrance.png";
-	load_texture(path, "entrance");
-
-	path = "content/textures/exit.png";
-	load_texture(path, "exit");
 }
 void ResourceManager::load_fonts()
 {

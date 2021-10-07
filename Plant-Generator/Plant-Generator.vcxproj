@@ -155,14 +155,18 @@
   <ItemGroup>
     <ClCompile Include="Camera.cpp" />
     <ClCompile Include="InputHandler.cpp" />
+    <ClCompile Include="LSystem.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ResourceManager.cpp" />
+    <ClCompile Include="Turtle.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />
     <ClInclude Include="InputHandler.h" />
+    <ClInclude Include="LSystem.h" />
     <ClInclude Include="Rectangle.h" />
     <ClInclude Include="ResourceManager.h" />
+    <ClInclude Include="Turtle.h" />
     <ClInclude Include="Utilities.h" />
     <ClInclude Include="VecUtil.h" />
   </ItemGroup>
