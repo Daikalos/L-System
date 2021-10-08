@@ -154,6 +154,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Camera.cpp" />
+    <ClCompile Include="Evolution.cpp" />
     <ClCompile Include="InputHandler.cpp" />
     <ClCompile Include="LSystem.cpp" />
     <ClCompile Include="main.cpp" />
@@ -162,6 +163,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />
+    <ClInclude Include="Evolution.h" />
     <ClInclude Include="InputHandler.h" />
     <ClInclude Include="LSystem.h" />
     <ClInclude Include="Rectangle.h" />

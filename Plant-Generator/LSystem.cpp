@@ -26,18 +26,10 @@ LSystem::~LSystem()
 
 }
 
-void LSystem::extract_rule(std::string r)
+void LSystem::extract_rule(std::string rule)
 {
-	std::string variable;
-	std::string rule;
-	float probability;
-
-	int pos1 = r.find("=");
-
-	variable = r.substr(0, pos1);
-	rule = r.substr(pos1 + 1, r.size() - pos1 - 1);
-
-	rules.emplace_back(variable, rule);
+	int pos1 = rule.find("=");
+	rules.emplace_back(rule.substr(0, pos1), rule.substr(pos1 + 1, rule.size() - pos1 - 1));
 }
 
 void LSystem::add_rule(std::string rule)
